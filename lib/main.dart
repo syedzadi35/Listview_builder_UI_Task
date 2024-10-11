@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:listview_builder_tasks/insta_ui.dart';
 import 'package:listview_builder_tasks/kullanimi.dart';
 
 void main() {
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Task1(),
+      home: Task2(),
     );
   }
 }
